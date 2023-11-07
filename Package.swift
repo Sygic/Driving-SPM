@@ -13,7 +13,7 @@ let package = Package(
             name: "Driving",
             targets: ["Driving"]),
     ],
-    dependencies: [],
+    dependencies: [.package(url: "https://github.com/jurajantas/SygicAuth", from: "1.3.1")],
     targets: [
         .binaryTarget(
             name: "Driving",

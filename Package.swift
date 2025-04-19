@@ -13,11 +13,11 @@ let package = Package(
             name: "Driving",
             targets: ["Driving"]),
     ],
-    dependencies: [.package(url: "https://github.com/jurajantas/SygicAuth", from: "1.3.1")],
+    dependencies: [.package(url: "https://github.com/olavrushkosygic/SygicAuthSPM/tags", from: "1.3.1")],
     targets: [
         .binaryTarget(
             name: "Driving",
-            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/adas/driving/2.5.4/driving-2.5.4.zip",
-            checksum: "d073edd820ccb36709736b32af9ca5906f5ca828ac2998ac8f96dac4c6fe4bde")
+            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/adas/driving/2.5.11/driving-2.5.11.zip",
+            checksum: "3d8fac113cd6183ee6913792db2f07ce98dabc0c28c24adb6a03b17d26f6ca8a")
     ]
 )
